@@ -1,3 +1,15 @@
+# DNX - .Net 10 New Features
+
+DNX is a new tool/script delivered with the .Net 10, the purpose of this tool is to make super simpler the .Net tools execution, without needing even the installation of the tool.
+
+Fot those familiar with python and/or javascript, it is similar to `npx`, `uvx` or `pipx`.
+
+## How to use it?
+
+
+
+---
+
 # PassGen - Secure Password Generator
 
 A lightweight, secure CLI tool for generating cryptographically strong passwords with customizable options.
