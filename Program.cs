@@ -7,7 +7,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        if (args.Length == 0 || args.Contains("--help") || args.Contains("-h"))
+        if (args.Contains("--help") || args.Contains("-h"))
         {
             ShowHelp();
             return;
