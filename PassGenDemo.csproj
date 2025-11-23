@@ -11,11 +11,11 @@
         <PackageId>PassGenCli</PackageId>
         <Version>1.0.0</Version>
         <Authors>Wilson Neto</Authors>
-        <Company>Wilson Neto</Company>
+        <Company>Wilson Neto SWE</Company>
         <Description>A secure password generator CLI tool that creates cryptographically strong passwords with customizable length and character exclusion options.</Description>
         <PackageTags>password;generator;cli;security;cryptography</PackageTags>
-        <PackageProjectUrl>https://github.com/wilsonneto-swe/passgen-cli</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/wilsonneto-swe/passgen-cli</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/wilsonneto-swe/dotnet-10-dnx-demo-passgen-cli</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/wilsonneto-swe/dotnet-10-dnx-demo-passgen-cli</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
