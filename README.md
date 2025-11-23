@@ -6,7 +6,12 @@ Fot those familiar with python and/or javascript, it is similar to `npx`, `uvx` 
 
 ## How to use it?
 
+Just use the `dnx [package-name]` tool. Example:
 
+```bash
+# passgencli is the example app in this repo, created for this demo
+dnx passgencli
+```
 
 ---
 
