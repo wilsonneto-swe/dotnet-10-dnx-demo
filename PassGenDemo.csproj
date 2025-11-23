@@ -5,6 +5,23 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>passgen</ToolCommandName>
+        <PackageId>PassGenCli</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Wilson Neto</Authors>
+        <Company>Wilson Neto</Company>
+        <Description>A secure password generator CLI tool that creates cryptographically strong passwords with customizable length and character exclusion options.</Description>
+        <PackageTags>password;generator;cli;security;cryptography</PackageTags>
+        <PackageProjectUrl>https://github.com/wilsonneto-swe/passgen-cli</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/wilsonneto-swe/passgen-cli</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" Condition="Exists('README.md')" />
+    </ItemGroup>
 
 </Project>
