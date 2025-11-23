@@ -16,8 +16,10 @@ dnx passgencli
 ---
 
 # PassGen - Secure Password Generator
-
 A lightweight, secure CLI tool for generating cryptographically strong passwords with customizable options.
+
+> Nuget Package: https://www.nuget.org/packages/PassGenCli
+
 
 ## Features
 
